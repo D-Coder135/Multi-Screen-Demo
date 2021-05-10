@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
       // home: Screen1(),
       routes: {
         '/': (context) => Screen0(),
+        '/first': (context) => Screen1(),
       },
     );
   }
