@@ -11,6 +11,7 @@ class Screen0 extends StatelessWidget {
       body: Center(
         child: Column(
           children: <Widget>[
+            // ignore: deprecated_member_use
             RaisedButton(
               color: Colors.red,
               child: Text('Go To Screen 1'),
@@ -19,6 +20,7 @@ class Screen0 extends StatelessWidget {
                 Navigator.pushNamed(context, '/first');
               },
             ),
+            // ignore: deprecated_member_use
             RaisedButton(
               color: Colors.blue,
               child: Text('Go To Screen 2'),
