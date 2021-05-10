@@ -7,7 +7,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        // home: Screen1(),
-        );
+      // home: Screen1(),
+      routes: {},
+    );
   }
 }
