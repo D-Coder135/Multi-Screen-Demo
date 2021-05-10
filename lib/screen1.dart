@@ -9,6 +9,7 @@ class Screen1 extends StatelessWidget {
         title: Text('Screen 1'),
       ),
       body: Center(
+        // ignore: deprecated_member_use
         child: RaisedButton(
           color: Colors.red,
           child: Text('Go Forwards To Screen 2'),
